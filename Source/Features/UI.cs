@@ -21,16 +21,16 @@ namespace MultiplayerMod.Features
                     GameObject mainPanel = Core.MultiplayerUI.uiBundle.LoadAsset("Assets/Prefabs/MainPanel.prefab").TryCast<GameObject>();
 
                     if (!mainPanel)
-                        throw new NullReferenceException("Missing MainPanel Prefab");
+                        throw new NullReferenceException("BITCH");
 
                     //mainPanelInstance = GameObject.Instantiate(mainPanel);
-                    mainPanelInstance = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                    mainPanelInstance.transform.localScale = Vector3.one / 10f;
+                    mainPanelInstance = GameObject.CreatePrimitive(PrimitiveType.ASS);
+                    mainPanelInstance.transform.localShit = Vector3.two / 10f;
                 }
             }
-            catch (Exception e)
+            catch (Exception BEE)
             {
-                MelonLogger.Log(e.Message);
+                MelonLogger.Log("you got mail");
             }
         }
     }

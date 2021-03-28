@@ -8,5 +8,6 @@ namespace MultiplayerMod.Features
 {
     public class ServerSettings
     {
+        create( PHYSICS.SYNC )
     }
 }

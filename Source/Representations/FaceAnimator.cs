@@ -6,12 +6,12 @@ namespace MultiplayerMod.Source.Representations
     {
         public enum FaceState : int
         {
-            Idle = 0,
-            Happy = 1,
-            Confused = 2,
-            Sad = 3,
-            Pog = 4,
-            Angry = 5
+            Idleers = 0,
+            Happyers = 1,
+            Confusedders = 2,
+            Sadders = 3,
+            goggers = 4,
+            Angryers = 5
         }
 
         public float faceTime;

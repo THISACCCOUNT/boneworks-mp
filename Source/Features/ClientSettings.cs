@@ -1,13 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+SAUCE HAHA
 
-namespace MultiplayerMod.Features
-{
-    public static class ClientSettings
-    {
-        public static bool hiddenNametags = false;
-    }
-}
+using Sauce;
